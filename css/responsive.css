@@ -1,15 +1,46 @@
+@media screen and (max-width: 970px){
+   
+    .hero-row{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content p{
+        padding-right: 0;
+    }
+    .hero-img{
+        width: 100%;
+        
+    }
+    .hero-img{
+        margin-top: 50px;
+       max-width: 400px;
+    }
+}
 @media screen and (max-width: 720px){
-
-
-    .for-desktop{
-        display: none;
-    }
-    .for-mobile{
-        display: block;
-    }
-    .geeks img{
-        width: 70%;
+    #hero{
+       height: 100vh;
+       padding: 0;
     }
 
+    .hero-row{
+        padding: 0 20px;
+    }
+    .content-heading-tow h3{
+        font-size: 30px;
+    }
+    .content-heading-one h2{
+        font-size: 30px;
+    }
+    
+
+}
+@media screen and (max-width: 400px){
+    #hero{
+        height: auto;
+        padding: 100px 0 150px;
+    }
 }
 
