@@ -24,15 +24,19 @@
        height: 92vh;
        padding: 0;
     }
-
-    .hero-row{
-        padding: 0 20px;
+    .hero-content p{
+      font-size: 18px;
     }
+
     .content-heading-tow h3{
         font-size: 30px;
     }
     .content-heading-one h2{
         font-size: 30px;
+    }
+    .hero-row {
+        padding: 0 0px;
+        margin-top: -50px;
     }
     
 
